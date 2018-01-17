@@ -31,7 +31,7 @@ var i = require("../")
             +'[a.b.c]\ne=1\n'
             + 'j=2\n\n[x\\.y\\.z]\nx.y.z=xyz\n\n'
             + '[x\\.y\\.z.a\\.b\\.c]\na.b.c=abc\n'
-            + 'nocomment=this\\; this is not a comment\n'
+            + 'nocomment=this; this is not a comment\n'
             + 'noHashComment=this\\# this is not a comment\n'
   , expectD =
     { o: 'p',

@@ -153,7 +153,7 @@ function safe (val) {
      isQuoted(val)) ||
     val !== val.trim())
       ? JSON.stringify(val)
-      : val.replace(/;/g, '\\;').replace(/#/g, '\\#')
+      : val.replace(/#/g, '\\#')
 }
 
 function unsafe (val, doUnesc) {
